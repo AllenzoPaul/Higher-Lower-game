@@ -1,6 +1,6 @@
 # Higher Lower Game
 
-A fun command-line game where players guess which of two random accounts has more followers on social media. For each correct guess, the player’s score increases. The game continues until the player makes an incorrect guess.
+Higher Lower game is a fun command-line game where players guess which of two random accounts has more followers on social media. For each correct guess, the player’s score increases. The game continues until the player makes an incorrect guess.
 
 ## Table of Contents
 
@@ -47,4 +47,15 @@ In this Higher Lower Game, you’ll compare two randomly selected accounts and g
 3. Run the game:
     ```bash 
     python higher_lower_game.py
-    
+
+## Project Structure
+
+- higher_lower_game.py: Main game logic, displays options, and checks answers.
+- game_data.py: Contains data about each account, including names, descriptions, countries, and follower counts.
+- art.py: Contains ASCII art for logos and visual elements.
+
+## Future Improvements
+
+- Add more accounts for greater variety.
+- Add a leaderboard to track high scores.
+- Include a graphical interface for improved user interaction.
